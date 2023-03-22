@@ -1,0 +1,561 @@
+{
+    "resource_model_id": "615b11ee-c457-11e9-910c-a4d18cec433a",
+    "resource_model_name": "Observation",
+    "nodes": [
+        {
+            "arches_nodeid": "a77be70c-c457-11e9-a965-a4d18cec433a",
+            "arches_node_name": "carried out by",
+            "file_field_name": "carried out by",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "f55c6932-7844-11ea-a33b-acde48001122",
+            "arches_node_name": "described by digital object",
+            "file_field_name": "described by digital object",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0ae14c58-8e30-11eb-a9c4-faffc265b501",
+            "arches_node_name": "Digital Reference_Digital Reference Type",
+            "file_field_name": "Digital Reference_Digital Reference Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0ae14d2a-8e30-11eb-a9c4-faffc265b501",
+            "arches_node_name": "Digital Reference_Digital Source",
+            "file_field_name": "Digital Reference_Digital Source",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8fce4b73-c457-11e9-af67-a4d18cec433a",
+            "arches_node_name": "Identifier_content",
+            "file_field_name": "Identifier_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8fce4a00-c457-11e9-a906-a4d18cec433a",
+            "arches_node_name": "Identifier_label",
+            "file_field_name": "Identifier_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8fce4cc5-c457-11e9-8965-a4d18cec433a",
+            "arches_node_name": "Identifier_source",
+            "file_field_name": "Identifier_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8fce4840-c457-11e9-b893-a4d18cec433a",
+            "arches_node_name": "Identifier_type",
+            "file_field_name": "Identifier_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "6fa38a05-c457-11e9-8ce4-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87e40cc5-c457-11e9-8933-a4d18cec433a",
+            "arches_node_name": "Name_content",
+            "file_field_name": "Name_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87e4053d-c457-11e9-85c4-a4d18cec433a",
+            "arches_node_name": "Name_label",
+            "file_field_name": "Name_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87e3ec82-c457-11e9-89d8-a4d18cec433a",
+            "arches_node_name": "Name_language",
+            "file_field_name": "Name_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87e3fccc-c457-11e9-b64d-a4d18cec433a",
+            "arches_node_name": "Name_source",
+            "file_field_name": "Name_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87e4092e-c457-11e9-8036-a4d18cec433a",
+            "arches_node_name": "Name_type",
+            "file_field_name": "Name_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "cd412ac5-c457-11e9-9644-a4d18cec433a",
+            "arches_node_name": "observed",
+            "file_field_name": "observed",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "736f06a4-c54d-11ea-9f58-024e0d439fdb",
+            "arches_node_name": "part of",
+            "file_field_name": "part of",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "dd596aae-c457-11e9-956b-a4d18cec433a",
+            "arches_node_name": "recorded value",
+            "file_field_name": "recorded value",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec331a1-c457-11e9-8d7a-a4d18cec433a",
+            "arches_node_name": "Statement_content",
+            "file_field_name": "Statement_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb78-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_carried out by",
+            "file_field_name": "Statement_creation_carried out by",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb7e-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_digital reference",
+            "file_field_name": "Statement_creation_digital reference",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb7f-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_textual reference",
+            "file_field_name": "Statement_creation_textual reference",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb79-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_begin of the begin",
+            "file_field_name": "Statement_creation_time_begin of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb80-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_begin of the end",
+            "file_field_name": "Statement_creation_time_begin of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb81-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_end of the begin",
+            "file_field_name": "Statement_creation_time_end of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb7b-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_end of the end",
+            "file_field_name": "Statement_creation_time_end of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb7d-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_label",
+            "file_field_name": "Statement_creation_time_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3d26cb7c-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_type",
+            "file_field_name": "Statement_creation_time_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec326e3-c457-11e9-b43c-a4d18cec433a",
+            "arches_node_name": "Statement_label",
+            "file_field_name": "Statement_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec31780-c457-11e9-9543-a4d18cec433a",
+            "arches_node_name": "Statement_language",
+            "file_field_name": "Statement_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec32cd4-c457-11e9-8801-a4d18cec433a",
+            "arches_node_name": "Statement_name_content",
+            "file_field_name": "Statement_name_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec31cee-c457-11e9-b172-a4d18cec433a",
+            "arches_node_name": "Statement_name_label",
+            "file_field_name": "Statement_name_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec32fd7-c457-11e9-a5dc-a4d18cec433a",
+            "arches_node_name": "Statement_name_language",
+            "file_field_name": "Statement_name_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec3330a-c457-11e9-a032-a4d18cec433a",
+            "arches_node_name": "Statement_name_source",
+            "file_field_name": "Statement_name_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec319e3-c457-11e9-8c7c-a4d18cec433a",
+            "arches_node_name": "Statement_name_type",
+            "file_field_name": "Statement_name_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ec31b7d-c457-11e9-8550-a4d18cec433a",
+            "arches_node_name": "Statement_type",
+            "file_field_name": "Statement_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "c07d2e07-c457-11e9-bbe0-a4d18cec433a",
+            "arches_node_name": "technique",
+            "file_field_name": "technique",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0a56b67d-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Textual Reference Type",
+            "file_field_name": "Textual Reference Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0a56b67c-9119-11ec-a428-ad03e9261309",
+            "arches_node_name": "Textual Source",
+            "file_field_name": "Textual Source",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08768-c457-11e9-94db-a4d18cec433a",
+            "arches_node_name": "TimeSpan_begin of the begin",
+            "file_field_name": "TimeSpan_begin of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0a1b5-c457-11e9-a48c-a4d18cec433a",
+            "arches_node_name": "TimeSpan_begin of the end",
+            "file_field_name": "TimeSpan_begin of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f073c2-c457-11e9-8990-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_highest possible value",
+            "file_field_name": "TimeSpan_duration_highest possible value",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f076f8-c457-11e9-ac62-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_label",
+            "file_field_name": "TimeSpan_duration_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f07502-c457-11e9-9671-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_lowest possible value",
+            "file_field_name": "TimeSpan_duration_lowest possible value",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0ab0a-c457-11e9-af18-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_Name_content",
+            "file_field_name": "TimeSpan_duration_Name_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f090d4-c457-11e9-8ec4-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_Name_label",
+            "file_field_name": "TimeSpan_duration_Name_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08ede-c457-11e9-b1da-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_Name_language",
+            "file_field_name": "TimeSpan_duration_Name_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f079d1-c457-11e9-a782-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_Name_source",
+            "file_field_name": "TimeSpan_duration_Name_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f095b5-c457-11e9-a71f-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_Name_type",
+            "file_field_name": "TimeSpan_duration_Name_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08300-c457-11e9-97cb-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_source",
+            "file_field_name": "TimeSpan_duration_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0a394-c457-11e9-9ab2-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_type",
+            "file_field_name": "TimeSpan_duration_type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f07ba8-c457-11e9-8e8e-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_unit",
+            "file_field_name": "TimeSpan_duration_unit",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08b1e-c457-11e9-91e7-a4d18cec433a",
+            "arches_node_name": "TimeSpan_duration_value",
+            "file_field_name": "TimeSpan_duration_value",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f077f0-c457-11e9-b043-a4d18cec433a",
+            "arches_node_name": "TimeSpan_end of the begin",
+            "file_field_name": "TimeSpan_end of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f09c14-c457-11e9-8a18-a4d18cec433a",
+            "arches_node_name": "TimeSpan_end of the end",
+            "file_field_name": "TimeSpan_end of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0a568-c457-11e9-a886-a4d18cec433a",
+            "arches_node_name": "TimeSpan_label",
+            "file_field_name": "TimeSpan_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0b0dc-c457-11e9-acdf-a4d18cec433a",
+            "arches_node_name": "TimeSpan_name_content",
+            "file_field_name": "TimeSpan_name_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0a859-c457-11e9-bce4-a4d18cec433a",
+            "arches_node_name": "TimeSpan_name_label",
+            "file_field_name": "TimeSpan_name_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08575-c457-11e9-ad2c-a4d18cec433a",
+            "arches_node_name": "TimeSpan_name_language",
+            "file_field_name": "TimeSpan_name_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f09e6b-c457-11e9-b3ee-a4d18cec433a",
+            "arches_node_name": "TimeSpan_name_source",
+            "file_field_name": "TimeSpan_name_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f078e3-c457-11e9-8f63-a4d18cec433a",
+            "arches_node_name": "TimeSpan_name_type",
+            "file_field_name": "TimeSpan_name_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0a075-c457-11e9-bec1-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_content",
+            "file_field_name": "TimeSpan_statement_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f09d5e-c457-11e9-83bf-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_label",
+            "file_field_name": "TimeSpan_statement_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0ae2b-c457-11e9-9911-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_language",
+            "file_field_name": "TimeSpan_statement_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0760a-c457-11e9-a45e-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_name_content",
+            "file_field_name": "TimeSpan_statement_name_content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f092a8-c457-11e9-aff7-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_name_label",
+            "file_field_name": "TimeSpan_statement_name_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08954-c457-11e9-873f-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_name_language",
+            "file_field_name": "TimeSpan_statement_name_language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f08d00-c457-11e9-a5c5-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_name_source",
+            "file_field_name": "TimeSpan_statement_name_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f07ab8-c457-11e9-9909-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_name_type",
+            "file_field_name": "TimeSpan_statement_name_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f098e8-c457-11e9-8ee1-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_source",
+            "file_field_name": "TimeSpan_statement_source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f0a9ab-c457-11e9-9587-a4d18cec433a",
+            "arches_node_name": "TimeSpan_statement_type",
+            "file_field_name": "TimeSpan_statement_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89f09f7a-c457-11e9-86a6-a4d18cec433a",
+            "arches_node_name": "TimeSpan_type",
+            "file_field_name": "TimeSpan_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b3b56607-c457-11e9-adc2-a4d18cec433a",
+            "arches_node_name": "took place at",
+            "file_field_name": "took place at",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "7b97ee23-c457-11e9-8ce3-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "212161cc-d383-11e9-b096-a4d18cec433a",
+            "arches_node_name": "used digital resource",
+            "file_field_name": "used digital resource",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1acc9d59-c458-11e9-99e4-a4d18cec433a",
+            "arches_node_name": "used instrument",
+            "file_field_name": "used instrument",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "51416e9c-c458-11e9-b70e-a4d18cec433a",
+            "arches_node_name": "used process",
+            "file_field_name": "used process",
+            "data_type": "resource-instance",
+            "export": true
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+{
+    "resource_model_id": "52c40a30-b25c-11e9-92cf-a4d18cec433a",
+    "resource_model_name": "Period",
+    "nodes": [
+        {
+            "arches_nodeid": "4db4c9ca-c072-11e9-a22e-a4d18cec433a",
+            "arches_node_name": "begin of the begin",
+            "file_field_name": "begin of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d6a3-c072-11e9-ab9a-a4d18cec433a",
+            "arches_node_name": "begin of the end",
+            "file_field_name": "begin of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4db21-c072-11e9-9578-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888bd4-c072-11e9-8c7e-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c163-c072-11e9-acf9-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888fd1-c072-11e9-ba01-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d5b3-c072-11e9-9a36-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "52944811-c072-11e9-8f5e-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "50dc7d6e-c072-11e9-aa25-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4dd0c-c072-11e9-b5fc-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4f1ec904-8e30-11eb-a9c4-faffc265b501",
+            "arches_node_name": "Digital Reference Type",
+            "file_field_name": "Digital Reference Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4f1ec9d6-8e30-11eb-a9c4-faffc265b501",
+            "arches_node_name": "Digital Source",
+            "file_field_name": "Digital Source",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c34f-c072-11e9-9b6b-a4d18cec433a",
+            "arches_node_name": "end of the begin",
+            "file_field_name": "end of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d211-c072-11e9-9651-a4d18cec433a",
+            "arches_node_name": "end of the end",
+            "file_field_name": "end of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "6bc82ede-c072-11e9-980e-a4d18cec433a",
+            "arches_node_name": "exact match",
+            "file_field_name": "exact match",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4bf28-c072-11e9-bee6-a4d18cec433a",
+            "arches_node_name": "highest possible value",
+            "file_field_name": "highest possible value",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888a00-c072-11e9-a85b-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c25e-c072-11e9-a2a0-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4ce66-c072-11e9-97b0-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4cf4c-c072-11e9-bca1-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d302-c072-11e9-94f8-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d870-c072-11e9-a674-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d954-c072-11e9-83e5-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "50dc7a6b-c072-11e9-adce-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5294460a-c072-11e9-9e05-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5388861e-c072-11e9-91df-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "72a6cf6e-b2ea-11e9-a472-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c8d9-c072-11e9-98d6-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4cab0-c072-11e9-9455-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888094-c072-11e9-9638-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "50dc7470-c072-11e9-bcf6-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888dd1-c072-11e9-b024-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4dc1c-c072-11e9-9ff1-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4cd6b-c072-11e9-b8bb-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c068-c072-11e9-8a6b-a4d18cec433a",
+            "arches_node_name": "lowest possible value",
+            "file_field_name": "lowest possible value",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "7e3e7b05-c072-11e9-a44e-a4d18cec433a",
+            "arches_node_name": "part of",
+            "file_field_name": "part of",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "52944aba-c072-11e9-b558-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c7f3-c072-11e9-8dba-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888828-c072-11e9-9faf-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d12b-c072-11e9-bba5-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c52e-c072-11e9-8282-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "50dc77f5-c072-11e9-a25d-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53889191-c072-11e9-82c5-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4cc87-c072-11e9-8e80-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d3e6-c072-11e9-96fe-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3f3ec6ab-c072-11e9-8da1-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d78a-c072-11e9-8d94-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c440-c072-11e9-be11-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4da3d-c072-11e9-a7db-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "50dc7c42-c072-11e9-87e1-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5294445c-c072-11e9-be1b-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c61e-c072-11e9-adf7-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5388836e-c072-11e9-9c97-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53888507-c072-11e9-8455-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d03a-c072-11e9-9a22-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4d4cf-c072-11e9-8019-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4c70f-c072-11e9-834e-a4d18cec433a",
+            "arches_node_name": "unit",
+            "file_field_name": "unit",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4db4cb9e-c072-11e9-8630-a4d18cec433a",
+            "arches_node_name": "value",
+            "file_field_name": "value",
+            "data_type": "number",
+            "export": true
+        }
+    ]
+}

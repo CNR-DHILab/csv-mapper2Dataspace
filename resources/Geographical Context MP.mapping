@@ -1,0 +1,152 @@
+{
+    "resource_model_id": "d4557c37-589f-4342-b184-ebf8be95c203",
+    "resource_model_name": "Geographical Context M.P.",
+    "nodes": [
+        {
+            "arches_nodeid": "dec2f86e-9081-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Amount of debris (cm3)",
+            "file_field_name": "Context Amount of debris (cm3)",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "393c335e-9083-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Bibliography",
+            "file_field_name": "Context Bibliography",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "eb4d9d4e-9079-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Chronology",
+            "file_field_name": "Context Chronology",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61a48836-a939-11ed-b2a7-afded3edabff",
+            "arches_node_name": "Context Collection",
+            "file_field_name": "Context Collection",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0b469274-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Collections for the lifting machine",
+            "file_field_name": "Context Collections for the lifting machine",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1f04cece-9083-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Compiler",
+            "file_field_name": "Context Compiler",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0a0eb0c0-9083-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Coordinates",
+            "file_field_name": "Context Coordinates",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b909b224-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Current status",
+            "file_field_name": "Context Current status",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "38eae5b8-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Description",
+            "file_field_name": "Context Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3266668a-907e-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Era",
+            "file_field_name": "Context Era",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "cbafa154-9078-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Name",
+            "file_field_name": "Context Name",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "59318976-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Presence of unfinished materials",
+            "file_field_name": "Context Presence of unfinished materials",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e455ec86-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Project",
+            "file_field_name": "Context Project",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ac527a58-9081-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Quality of the marble used/extracted",
+            "file_field_name": "Context Quality of the marble used/extracted",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d5ec70d0-9081-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Quantity of extracted material (cm3)",
+            "file_field_name": "Context Quantity of extracted material (cm3)",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "99fd6fe8-9081-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Square meters",
+            "file_field_name": "Context Square meters",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "6a648248-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Streets of contention",
+            "file_field_name": "Context Streets of contention",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "6c386f86-9081-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Surface",
+            "file_field_name": "Context Surface",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "42cf03e8-9082-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Traces of extraction tools",
+            "file_field_name": "Context Traces of extraction tools",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ea56b3ae-9078-11ed-8aba-8c85907a3f93",
+            "arches_node_name": "Context Typology",
+            "file_field_name": "Context Typology",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        }
+    ]
+}

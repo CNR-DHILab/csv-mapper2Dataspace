@@ -1,0 +1,27 @@
+{
+    "resource_model_id": "ade8eaef-0ff1-401e-8e2f-ff232da09e43",
+    "resource_model_name": "Aton 3D Model",
+    "nodes": [
+        {
+            "arches_nodeid": "9b8b67f6-ac59-11ed-8a98-f4463762b1b3",
+            "arches_node_name": "Description",
+            "file_field_name": "Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b3a9db75-ac59-11ed-9f24-f4463762b1b3",
+            "arches_node_name": "Title",
+            "file_field_name": "Title",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "229d3e0e-ac5a-11ed-910e-f4463762b1b3",
+            "arches_node_name": "URL",
+            "file_field_name": "URL",
+            "data_type": "string",
+            "export": true
+        }
+    ]
+}

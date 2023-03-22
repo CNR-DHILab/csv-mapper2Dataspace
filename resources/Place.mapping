@@ -1,0 +1,276 @@
+{
+    "resource_model_id": "cc8ed633-b25b-11e9-a13a-a4d18cec433a",
+    "resource_model_name": "Place",
+    "nodes": [
+        {
+            "arches_nodeid": "5420c48f-c071-11e9-b3fe-a4d18cec433a",
+            "arches_node_name": "approximated by",
+            "file_field_name": "approximated by",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1be4cd57-c071-11e9-a818-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e268f5-c071-11e9-8792-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e266cf-c071-11e9-85cc-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "229e19de-c071-11e9-80a7-a4d18cec433a",
+            "arches_node_name": "content",
+            "file_field_name": "content",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "6c874bcf-c071-11e9-9605-a4d18cec433a",
+            "arches_node_name": "defined by",
+            "file_field_name": "defined by",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9c0adb2c-8e30-11eb-a9c4-faffc265b501",
+            "arches_node_name": "Digital Reference Type",
+            "file_field_name": "Digital Reference Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9c0adc08-8e30-11eb-a9c4-faffc265b501",
+            "arches_node_name": "Digital Source",
+            "file_field_name": "Digital Source",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "75da0923-d325-11e9-8b03-a4d18cec433a",
+            "arches_node_name": "external uri",
+            "file_field_name": "external uri",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "c45f2b47-b2f2-11e9-b4e5-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1be4cb6e-c071-11e9-b452-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "229e18a1-c071-11e9-994b-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e26387-c071-11e9-ab36-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e265c2-c071-11e9-b89d-a4d18cec433a",
+            "arches_node_name": "_label",
+            "file_field_name": "_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e25c9e-c071-11e9-8f73-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e267e8-c071-11e9-9bd8-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1be4c80f-c071-11e9-82cd-a4d18cec433a",
+            "arches_node_name": "language",
+            "file_field_name": "language",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "43ea673d-c071-11e9-a4af-a4d18cec433a",
+            "arches_node_name": "part of",
+            "file_field_name": "part of",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e26a02-c071-11e9-a024-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1be4ca54-c071-11e9-8b4e-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "229e1b02-c071-11e9-add1-a4d18cec433a",
+            "arches_node_name": "source",
+            "file_field_name": "source",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76d9a-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_carried out by",
+            "file_field_name": "Statement_creation_carried out by",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76da0-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_digital reference",
+            "file_field_name": "Statement_creation_digital reference",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76da1-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_textual reference",
+            "file_field_name": "Statement_creation_textual reference",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76d9b-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_begin of the begin",
+            "file_field_name": "Statement_creation_time_begin of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76da2-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_begin of the end",
+            "file_field_name": "Statement_creation_time_begin of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76da3-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_end of the begin",
+            "file_field_name": "Statement_creation_time_end of the begin",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76d9d-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_end of the end",
+            "file_field_name": "Statement_creation_time_end of the end",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76d9f-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_label",
+            "file_field_name": "Statement_creation_time_label",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "07e76d9e-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Statement_creation_time_type",
+            "file_field_name": "Statement_creation_time_type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0ffc50a5-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Textual Reference Type",
+            "file_field_name": "Textual Reference Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0ffc50a4-911a-11ec-a428-ad03e9261309",
+            "arches_node_name": "Textual Source",
+            "file_field_name": "Textual Source",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1be4cc63-c071-11e9-a3d6-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e2625c-c071-11e9-8bcd-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "002289b3-c071-11e9-a58c-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "229e1742-c071-11e9-a1c0-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "23e260c0-c071-11e9-bb83-a4d18cec433a",
+            "arches_node_name": "type",
+            "file_field_name": "type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        }
+    ]
+}

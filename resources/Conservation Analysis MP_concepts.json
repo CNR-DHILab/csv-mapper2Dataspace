@@ -1,0 +1,10 @@
+{
+    "Analysis Description": {
+        "f441aea3-9093-46c1-b26b-e116b0b50733": "frammento",
+        "bf0887b7-e97c-45f3-aeb0-0dd726c9a0bf": "polvere",
+        "8fd668bf-7724-401a-a9f1-8c1287c200dc": "scaglia"
+    },
+    "Resource to Resource Relationship Types": {
+        "ac41d9be-79db-4256-b368-2f4559cfbe55": "is related to"
+    }
+}

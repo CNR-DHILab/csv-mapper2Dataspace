@@ -1,0 +1,84 @@
+{
+    "resource_model_id": "f8caf14f-500a-439d-9d81-c89399fe3a83",
+    "resource_model_name": "Conservation Analysis M.P.",
+    "nodes": [
+        {
+            "arches_nodeid": "98fc158a-9555-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Conservation status",
+            "file_field_name": "Analysis Conservation status",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8ea45e58-9555-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Description",
+            "file_field_name": "Analysis Description",
+            "data_type": "domain-value",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "016befc8-9556-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Photos FTIR",
+            "file_field_name": "Analysis Photos FTIR",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e46b120a-9555-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Photos Macroscopic",
+            "file_field_name": "Analysis Photos Macroscopic",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "d61e3858-9555-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Photos Microscopy",
+            "file_field_name": "Analysis Photos Microscopy",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "16c76b0e-9556-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Photos SEM EDS",
+            "file_field_name": "Analysis Photos SEM EDS",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "efc432ee-9555-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Photos XRD",
+            "file_field_name": "Analysis Photos XRD",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0af6b1cc-9556-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Photos XRF",
+            "file_field_name": "Analysis Photos XRF",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ca2d10b8-a618-11ed-b556-4f8c77f21284",
+            "arches_node_name": "Analysis Plotting",
+            "file_field_name": "Analysis Plotting",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "22d3cdde-9556-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Project",
+            "file_field_name": "Analysis Project",
+            "data_type": "resource-instance",
+            "export": true
+        },
+        {
+            "arches_nodeid": "01815da4-9542-11ed-b0aa-8c85907a3f93",
+            "arches_node_name": "Analysis Sample",
+            "file_field_name": "Analysis Sample",
+            "data_type": "resource-instance",
+            "export": true
+        }
+    ]
+}
