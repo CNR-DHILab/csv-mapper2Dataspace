@@ -8,6 +8,15 @@ Additionally, this application also provides a way to generate
 unique UUID values for each data row and also provide mapping to concepts from a JSON file.
 """
 
+try:
+    import pyi_splash
+except:
+    pass
+else:
+	pyi_splash.update_text("Welcome")
+	pyi_splash.close()
+
+
 
 
 from PyQt5.QtCore import QAbstractTableModel,Qt
@@ -240,7 +249,7 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 
 			if self.comboBox_template.currentText() == 'MP_Object':
 
-				self.relate_resource(objects, "Object Project", "Project.csv", "Name_content")
+				self.relate_resource(objects, "Object Project", "data/Project.csv", "Name_content")
 
 			self.to_csv(objects)
 	def create_list(self, objects_file):
