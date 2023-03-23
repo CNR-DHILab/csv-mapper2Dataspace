@@ -19,7 +19,6 @@ else:
 from PyQt5.QtCore import QAbstractTableModel,Qt
 from PyQt5.QtWidgets import *
 from PyQt5.uic import *
-
 import os
 import csv
 import pandas as pd
@@ -61,7 +60,6 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		self.mapping = {}
 		self.comboBox_template.currentTextChanged.connect(self.on_template_changed)
 		self.custumize_gui()
-
 
 	def on_template_changed(self,text):
 
