@@ -101,7 +101,7 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		# Crea la statusBar e la imposta in alto a destra
 
 		self.statusbar.setSizeGripEnabled(False)
-		self.statusbar.showMessage("Barra di stato in alto a destra")
+
 		self.statusbar.setStyleSheet("QStatusBar{border-top: 1px solid grey;}")
 
 
