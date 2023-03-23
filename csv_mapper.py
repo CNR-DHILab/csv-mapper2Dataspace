@@ -98,7 +98,6 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		self.comboBox_template.addItems(self.CONVERSION)
 
 		self.setCentralWidget(self.widget)
-		# Crea la statusBar e la imposta in alto a destra
 
 		self.statusbar.setSizeGripEnabled(False)
 
