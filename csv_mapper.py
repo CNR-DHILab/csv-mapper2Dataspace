@@ -16,9 +16,6 @@ else:
 	pyi_splash.update_text("Welcome")
 	pyi_splash.close()
 
-
-
-
 from PyQt5.QtCore import QAbstractTableModel,Qt
 from PyQt5.QtWidgets import *
 from PyQt5.uic import *
@@ -67,9 +64,8 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 
 
 	def on_template_changed(self,text):
-		#lista_valori = [self.comboBox_template.itemText(i) for i in range(self.comboBox_template.count())]
-		if text:
 
+		if text:
 			self.template_path = os.path.join('templates/', text+'.csv')
 			self.load_template(self.template_path)
 
@@ -124,10 +120,9 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		self.data_table.setDragEnabled(True)
 		model = PandasModel(df)
 		self.data_table.setModel(model)
-		# Add the data table to the right layout
-		#right_layout1 = self.layout().itemAt(1).layout()
-		#right_layout1.addWidget(self.data_table)
+
 	def on_add_mapping_pressed(self):
+		#method is used to add a mapping between the template and the data fields
 		template_index = self.template_table.currentRow()
 		input_dialog = QInputDialog()
 		data_field, okPressed = input_dialog.getItem(
@@ -145,12 +140,13 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 			self.mapping_table.setItem(template_index, 1, item)
 
 	def on_remove_mapping_pressed(self):
+		#It  used to remove a mapping
 		template_index = self.template_table.currentRow()
 		del self.mapping[self.template_fields[template_index]]
 		self.mapping_table.setItem(template_index, 1, QTableWidgetItem())
 
 	def on_convert_data_pressed(self):
-
+		#method is used to convert the data into a new CSV
 		self.log_text.clear()
 		if self.comboBox_template.currentText()=='':
 			self.log_text.append('Waring! You need choose a template')
