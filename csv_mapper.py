@@ -60,16 +60,26 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		self.mapping = {}
 		self.comboBox_template.currentTextChanged.connect(self.on_template_changed)
 		self.custumize_gui()
+		self.toolButton_load.setEnabled(False)
+		self.convert_data.setEnabled(False)
+		self.add_mapping.setEnabled(False)
+		self.remove_mapping.setEnabled(False)
 
 	def on_template_changed(self,text):
 
 		if text:
 			self.template_path = os.path.join('templates/', text+'.csv')
 			self.load_template(self.template_path)
+			self.toolButton_load.setEnabled(True)
+		if not text:
+			self.template_table.clear()
+			self.toolButton_load.setEnabled(False)
+			self.convert_data.setEnabled(False)
 
 	def load_template(self,path):
 		self.template_table.clear()
 		self.mapping_table.clear()
+
 		with open(path, 'r') as csv_file:
 			reader = csv.reader(csv_file)
 			self.template_fields = next(reader)
@@ -89,12 +99,16 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		for i, field in enumerate(self.template_fields):
 			item = QTableWidgetItem(field)
 			self.mapping_table.setItem(i, 0, item)
+
 	def custumize_gui(self):
 		"""
 		In the cutumize_gui() method, it is setting the window title, setting the geometry,
 		and opening files for the template and data CSVs.
 		"""
 
+		self.comboBox_template.setInsertPolicy(QComboBox.InsertAtTop)
+		self.comboBox_template.lineEdit().setPlaceholderText("Select an item...")
+		#self.comboBox_template.setCurrentText("Select an item...")
 		self.comboBox_template.addItems(self.CONVERSION)
 
 		self.setCentralWidget(self.widget)
@@ -105,6 +119,7 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 
 
 	def on_toolButton_load_pressed(self):
+		self.add_mapping.setEnabled(True)
 		# Open the data CSV file
 		data_file, _ = QFileDialog.getOpenFileName(self, 'Open Data CSV', '', 'CSV files (*.csv)')
 		if not data_file:
@@ -135,6 +150,8 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 			self.mapping[self.template_fields[template_index]] = data_field
 			item = QTableWidgetItem(data_field)
 			self.mapping_table.setItem(template_index, 1, item)
+			self.convert_data.setEnabled(True)
+			self.remove_mapping.setEnabled(True)
 
 	def on_remove_mapping_pressed(self):
 		#It  used to remove a mapping
@@ -238,13 +255,16 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 			objects = self.create_list(original_csv)
 			self.map_concepts(objects, concepts_file)
 
-
-
 			if self.comboBox_template.currentText() == 'MP_Object':
 
 				self.relate_resource(objects, "Object Project", "data/Project.csv", "Name_content")
+			else:
+				pass
+
 
 			self.to_csv(objects)
+			if os.path.exists(output_file):
+				os.remove(output_file)
 	def create_list(self, objects_file):
 		"""Reads the csv and creates a python list to manipulate the data."""
 		objects = []
@@ -335,7 +355,7 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		for key in objects[0]:
 			fieldnames.append(key)
 
-		with open("dataspace.csv", mode = 'w') as csv_file:
+		with open("mapping converted/dataspace.csv", mode = 'w') as csv_file:
 			writer = csv.DictWriter(csv_file, fieldnames = fieldnames)
 
 			writer.writeheader()

@@ -114,8 +114,8 @@
    <widget class="QToolButton" name="toolButton_load">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>350</y>
+      <x>360</x>
+      <y>20</y>
       <width>101</width>
       <height>22</height>
      </rect>
@@ -139,6 +139,12 @@
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
     <property name="currentIndex">
      <number>-1</number>
     </property>
@@ -153,7 +159,7 @@
     <property name="geometry">
      <rect>
       <x>680</x>
-      <y>350</y>
+      <y>20</y>
       <width>93</width>
       <height>21</height>
      </rect>
@@ -211,8 +217,8 @@
    <widget class="QPushButton" name="add_mapping">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>350</y>
+      <x>620</x>
+      <y>360</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -224,8 +230,8 @@
    <widget class="QPushButton" name="remove_mapping">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>350</y>
+      <x>730</x>
+      <y>360</y>
       <width>121</width>
       <height>28</height>
      </rect>
