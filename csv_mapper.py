@@ -251,20 +251,27 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 				concepts_file = "resources/Project_concepts.json"
 
 
-
 			objects = self.create_list(original_csv)
+
+			if self.comboBox_template.currentText() == 'Project':
+				objects=self.unique_value(objects)
+
 			self.map_concepts(objects, concepts_file)
 
 			if self.comboBox_template.currentText() == 'MP_Object':
-
 				self.relate_resource(objects, "Object Project", "data/Project.csv", "Name_content")
-			else:
-				pass
-
 
 			self.to_csv(objects)
 			if os.path.exists(output_file):
 				os.remove(output_file)
+
+	def unique_value(self,x):
+		dizionario = x[0]  # estrai il dizionario dalla lista
+		lista = []  # creo una lista vuota
+		list(set(dizionario.values()))  # ottengo valori unici da dizionario
+		lista.append(dizionario)  # aggiungi il dizionario aggiornato alla lista
+		x = lista
+		return x
 	def create_list(self, objects_file):
 		"""Reads the csv and creates a python list to manipulate the data."""
 		objects = []
@@ -301,9 +308,9 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		cont = 0
 		for object in objects:
 			for attr, concepts in map.items():
-				if attr != "Resource to Resource Relationship Types":
-					self.log_text.append(f"Attr: {attr}")
 
+				if attr != "Resource to Resource Relationship Types":
+					print(f"Attr: {attr}")
 					if object[attr]:
 						changed = False
 						for uuid, concept in concepts.items():
@@ -315,7 +322,7 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 
 						if not changed:
 							cont += 1
-							self.log_text.append(f"{object[attr]} from {attr} wasn't found.")
+							print(f"{object[attr]} from {attr} wasn't found.")
 
 		self.log_text.append(f"Items NOT changed (should be 0): {cont}")
 
@@ -355,7 +362,7 @@ class CSVMapper(QMainWindow,MAIN_DIALOG_CLASS):
 		for key in objects[0]:
 			fieldnames.append(key)
 
-		with open("mapping converted/dataspace.csv", mode = 'w') as csv_file:
+		with open("mapping converted/"+ str(self.comboBox_template.currentText())+"_dataspace.csv", mode = 'w') as csv_file:
 			writer = csv.DictWriter(csv_file, fieldnames = fieldnames)
 
 			writer.writeheader()
